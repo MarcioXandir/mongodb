@@ -2,6 +2,7 @@ import pprint
 import pymongo
 
 
+
 client = pymongo.MongoClient(
     'mongodb+srv://InstituicaoBancaria:diome124@cluster0.vkbazm2.mongodb.net/?retryWrites=true&w=majority')
 db = client.Bank
